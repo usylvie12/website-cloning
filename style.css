@@ -1,3 +1,275 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+nav{
+    font-size: small;
+    color: white;
+    background-color: white;
+}
+.navbar img{
+    width: 60% ;
+
+}
+
+
+
+.icon-list{
+  height: 150px;
+}
+
+.icon-section i{
+    padding-left: 20px;
+    
+}
+
+.info{
+    background-color:#000080;
+    height: 50px;
+    text-align: center;
+    
+}
+.info a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-top: 20px;
+    
+}
+
+
+
+
+.hello {
+    position: relative;
+   
+  }
+  
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    top: 20%;
+    padding-left: 60%;
+    
+  }
+
+  .text-block  a{
+    text-decoration: none;
+   
+    
+  }
+  .text-block  button{
+    background-color:#4169E1;
+    color: white;
+    border: none;
+    padding: 10px;
+    
+  }
+
+  .hello button{
+    margin-top: 30px;
+  }
+  .hello-left {
+    position: relative;
+   
+  }
+  
+  .hello-left img {
+    width: 100%;
+   
+  }
+  
+  /* Bottom right text */
+  .text-block-left {
+    position: absolute;
+    top: 40%;
+    padding-right: 50%;
+    padding-left: 5%;
+    
+  }
+
+  .hello-left button{
+    margin-top: 30px;
+  }
+
+  .hello-bottom {
+    position: relative;
+    
+   
+  }
+  
+  .hello-bottom img {
+    width: 100%;
+   
+  }
+
+  
+  
+  
+  .text-block-bottom {
+    position: absolute;
+    top: 40%;
+    padding-right: 50%;
+    padding-left: 5%;
+    color: white;
+    background-color:rgba(214, 184, 184, 0.151);
+   
+    
+  }
+
+  .hello-bottom button{
+    margin-top: 30px;
+  }
+  
+
+    .font-awesome-icon{
+        
+        padding-left: 100px;
+        
+    }
+    .font-awesome-icon-link{
+        
+      padding-left: 20px;
+      padding-top: 10px;
+      
+  }
+    .card{
+        padding: 10px;
+        
+        
+    }
+    .font-awersome-list{
+      height: 100px;
+      padding: 30px;
+      
+    }
+    .font-awersome-list i{
+      
+      padding-left: 30px;
+      
+    }
+    .top-arrow{
+      
+      height: 70px;
+    }
+    .top-arrow a{
+      color: black;
+        background-color:  #c0c0c0;
+        padding: 10px;
+        text-decoration: none;
+        margin-left: 90%;
+    }
+    
+    
+
+
+
+
+footer{
+    font-size: smaller;
+    text-decoration: none;
+    background-color: gainsboro;
+    padding-top: 30px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+
+}
+@media (max-width: 576px) { 
+
+    
+    .info a{
+        display:none;
+    }
+    .text-block {
+      position: relative;
+   }
+   .text-block-left {
+    position: relative;
+     
+  }
+  .text-block-bottom {
+    color: black;
+    position: relative;
+     
+  }
+  .top-arrow a{
+    color: black;
+      background-color:  #c0c0c0;
+      padding: 10px;
+      text-decoration: none;
+      margin: auto;
+      
+  }
+  
+    
+   
+  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    
+   
+    .text-block {
+      position: relative;
+       
+    }
+    .text-block-left {
+      position: relative;
+       
+    }
+    .text-block-bottom {
+      color: black;
+      position: relative;
+       
+    }
+    .top-arrow a{
+      color: black;
+        background-color:  #c0c0c0;
+        padding: 10px;
+        text-decoration: none;
+        margin: auto;
+        
+    }
+
+    
+ }
+
+/* Large devices (desktops, 992px and up)  */
+@media (max-width: 992px) { 
+    
+
+
+
+.text-block {
+  position: relative;
+  padding: 0;
+   
+}
+.text-block-left {
+  position: relative;
+  padding: 0;
+   
+}
+.text-block-bottom {
+  position: relative;
+  padding: 0;
+  color: black;
+   
+}
+}
+
+
+
+
+
+
+
+
